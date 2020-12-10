@@ -39,17 +39,35 @@ HINT: Sherlock tells you the following information:
 public class DroneSafetyZone
 {
 	public static void main(String[] args) {
+		MyCircle A= new Mycircledouble r, int x, int y);
+		MyCircle B= new Mycircledouble r, int x, int y);
 		
 	}
+	
+	public double DistanceBetweenPoints(double x1, double y1, double x2, double y2) {   
+
+    return Math.sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1));
+}
+		
 	
 	
 	public String SafteyAlert(MyCircle[] swarm){
+		Double dis;
+		Double dis2 = A.getRadius + B.getRadius;
+		 dis = service DistanceBetweenPoints(A.getX,A.getY,B.getX,B.getY)
+			 if(dis > dis2){
+				 System.out.print("not intersecting (Green)"); 
+			 }
+		         else if(dis == dis2){
+				 System.out.print("tangential(Yellow)"); 
+			 }
+		         else {
+				 System.out.print("intersecting(Red)"); 
+				 }
 		
 		
-		
-		
-		
-	}
+}
+	
 	
 }
 
