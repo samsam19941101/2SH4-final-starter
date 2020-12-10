@@ -76,8 +76,25 @@ return 0;
 the correctness of the returned value from the function by comparing it against what you expect. */
 //Answer:
 
-
+void insert(int number)
+{
+struct node *ptr,*temp;
+ptr = (struct node*)malloc(sizeof(struct node));
 int main(){
+	int target;
+	insert(1);
+	insert(2);
+	insert(3);
+	insert(4);
+	insert(5);
+	insert(6);
+	insert(7);
+	insert(8);
+	insert(9);
+	insert(10);
+	
+int searchList(1);
+int searchList(50);	
 	
 	
 	
@@ -90,6 +107,5 @@ int main(){
 	
 	
 	
-	
-	return 0;
+
 }
