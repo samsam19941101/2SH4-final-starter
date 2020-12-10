@@ -71,3 +71,13 @@ public class DroneSafetyZone
 	
 }
 
+
+//Supposed that we had MyCircle 1 to MyCircle 100   use for loop;
+
+For (int x=1,int y=1;y<101;y++){
+	For(x=1;x<101;x++){
+	return MyCircle x.SafteyAlert;
+}
+}
+//in this way we can compare 100 drones to eath other
+
