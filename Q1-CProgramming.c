@@ -9,7 +9,7 @@ The question has four parts, answer all of them in this same file*/
 
 struct Node{
 	int data;
-	Node*next;
+	struct Node*next;
 }
 
 
@@ -17,6 +17,12 @@ struct Node{
 
 /*(b) [5 Marks] Write structure SLL that represents the singly linked list and holds a pointer to the first node in the list.*/
 //Answer:
+struct Node{
+	int data;
+	struct Node*next;
+}
+
+struct node *head;
 
 
 
@@ -30,7 +36,38 @@ returns:
 1 if the target was found in the list
 0, otherwise*/
 //Answer:
-
+int searchList(int target)
+{
+struct node *ptr;
+int i=0,indicator;
+ptr = head;   
+if(ptr == NULL)
+{
+return 0;
+}
+else
+{   
+while (ptr!=NULL)
+{
+if(ptr->data == target)
+{
+return 1;
+indicator=0;
+}   
+else
+{
+flag=1;
+}
+i++;
+ptr = ptr -> next;
+}
+if(indicator==1)
+{
+return 0;
+}
+}   
+return 0;   
+}
 
 
 
