@@ -55,31 +55,32 @@ NOTE that this is a code snippet and not a complete java program; hence, you do 
 */
 
 var1.method2();
-//answer:
+//answer: Mammal 3
 
 var2.method2();
-//answer:
+//answer: Horse 2
 
 var3.method2();
-//answer:
+//answer: Ponny 2
 
 var4.method2();
-//answer:
+//answer: Horse 2
 
 var5.method2();
-//answer:
+//answer: error
 
 var6.method2();
-//answer:
+//answer: Creature 2
 
 var1.method3();
-//answer:
+//answer:    Mammal 2       Mammal 3
+
 
 var2.method3();
-//answer:
+//answer:   Horse 2  Mammal 3
 
 var3.method3();
-//answer:
+//answer:   Ponny 2
 
 var4.method3();
 //answer:
